@@ -1,0 +1,155 @@
+body{
+	font-family: "Montserrat","Avenir";
+	background: #076585;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right,#076585, #fff);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #076585, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+#mainNavbar{
+	font-size: 32px;
+	position: fixed;
+}
+
+.carousel-item{
+	width: 1550px;
+	height: 900px;
+}
+
+.nav-link{
+	color: black;
+	margin-right: 20px;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.glow {
+	font-size: 130px;
+  color: black;
+  text-align: right;
+  font-size: 80px;
+  text-shadow: 4px 4px 6px #000000;
+}
+
+#mainNavbar .nav-link:hover{
+	color: black;
+	background: #fceabb;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fff, #ffeb33);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fff, #ffeb33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-item.scrolled{
+	text-decoration-color: black;
+}
+
+.navbar.scrolled{
+    background-color: #fff;
+    transition: background 500ms;
+}
+@media (max-width: 1200px){
+    #headingGrp h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+.img-fluid{
+	border-radius: 50%;
+}
+
+.well{
+	padding-top: 35px;
+	padding-bottom: 5px;
+}
+
+#video{
+	margin: 10px 10px 0 0;
+}
+
+.btnbtn{
+	text-align: center;
+	color: black;
+} 
+
+.more_work{
+	border-color: black;
+	color: black;
+	margin-top: 20px;
+	background-color: transparent;
+}
+
+.more_work:hover{
+	background: #fceabb;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fff, #ffeb33);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fff, #ffeb33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.text{
+	color: black;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 35px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+hr{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px 0 0 0;
+    border-radius: 20px; 
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #076585;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+#contact{
+	font-size: 20px;
+	color: black;
+}
+
+.jumbotron{
+	border-radius: 80px;
+	background-image: url(https://www.nicepng.com/png/detail/958-9583176_listen-to-our-nonpro-background-music-transparent-background.png);
+
+}
+
+::selection {
+  color: white;
+  background: #076585;
+}
+
+
+.shape{
+  text-align:center;
+  background-color:#fff;
+  width:500px;
+  height:50px;
+  line-height:50px;
+  margin:20px auto;
+  margin-right: 50px;
+  position:relative;
+  background: #fceabb;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fff, #ffeb33);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fff, #ffeb33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.shape:before{
+  content:"";
+  width:0px;
+  height:0px;
+  border-top:50px solid #fff;
+  border-left:50px solid transparent;
+  position:absolute;
+  right:100%;
+  top:0px;
+}
