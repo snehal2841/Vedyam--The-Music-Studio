@@ -1,11 +1,28 @@
 body{
 	font-family: "Montserrat","Avenir";
-	background: #076585;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right,#076585, #fff);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #076585, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background: radial-gradient(190px circle at 100px 100px,
+  #272727 50%,
+  transparent 51%),
+radial-gradient(220px square at 3000px 4000px,
+  #383838 50%,
+  transparent 51%),
+radial-gradient(250px circle at 400px 3000px,
+  #272727 50%,
+  transparent 51%),
+radial-gradient(125px circle at 500px 250px,
+  #383838 50%,
+  transparent 51%),
+radial-gradient(200px circle at 250px 200px,
+  #272727 50%,
+  transparent 50.4%),
+radial-gradient(100px circle at 50px 420px,
+  #383838 50%,
+  transparent 51%);
+
+background-color: #2c2c2c;
 
 }
-
 
 #mainNavbar{
 	font-size: 32px;
@@ -18,7 +35,7 @@ body{
 }
 
 .nav-link{
-	color: black;
+	color: whitesmoke;
 	margin-right: 20px;
 	padding-bottom: 0;
 	padding-top: 0;
@@ -26,17 +43,15 @@ body{
 
 .glow {
 	font-size: 130px;
-  color: black;
+  color: white;
   text-align: right;
   font-size: 80px;
   text-shadow: 4px 4px 6px #000000;
 }
 
 #mainNavbar .nav-link:hover{
-	color: black;
-	background: #fceabb;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fff, #ffeb33);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fff, #ffeb33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: whitesmoke;
+  text-decoration: dashed;
 }
 
 .nav-item.scrolled{
@@ -44,7 +59,7 @@ background: linear-gradient(to right, #fff, #ffeb33); /* W3C, IE 10+/ Edge, Fire
 }
 
 .navbar.scrolled{
-    background-color: #fff;
+    background-color: #cf52f2ce;
     transition: background 500ms;
 }
 @media (max-width: 1200px){
@@ -58,9 +73,14 @@ background: linear-gradient(to right, #fff, #ffeb33); /* W3C, IE 10+/ Edge, Fire
 	border-radius: 50%;
 }
 
+.display-4 b, h1, .lead{
+  color: white;
+}
+
+
 .well{
 	padding-top: 35px;
-	padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 #video{
@@ -74,15 +94,15 @@ background: linear-gradient(to right, #fff, #ffeb33); /* W3C, IE 10+/ Edge, Fire
 
 .more_work{
 	border-color: black;
-	color: black;
+	color: white;
 	margin-top: 20px;
 	background-color: transparent;
 }
 
 .more_work:hover{
-	background: #fceabb;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #fff, #ffeb33);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #fff, #ffeb33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c2c2c, #cf52f2ad);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c2c2c, #cf52f2ad); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .text{
@@ -131,23 +151,23 @@ hr:before { /* Not really supposed to work, but does */
 
 .shape{
   text-align:center;
-  background-color:#fff;
+  background-color:#2c2c2c;
   width:500px;
   height:50px;
   line-height:50px;
   margin:20px auto;
   margin-right: 50px;
   position:relative;
-  background: #fceabb;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #fff, #ffeb33);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #fff, #ffeb33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2c2c2c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right,#2c2c2c, #cf52f2ad);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c2c2c, #cf52f2ad); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .shape:before{
   content:"";
   width:0px;
   height:0px;
-  border-top:50px solid #fff;
+  border-top:50px solid #2c2c2c;
   border-left:50px solid transparent;
   position:absolute;
   right:100%;
