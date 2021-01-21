@@ -117,9 +117,11 @@ hr{
     overflow: visible; /* For IE */
     height: 30px;
     border-style: solid;
-    border-color: grey;
+    border-color: #cf52f2ad;
     border-width: 1px 0 0 0;
     border-radius: 20px; 
+    margin-top: 60px;
+    margin-bottom: -50px;
 }
 hr:before { /* Not really supposed to work, but does */
     display: block;
