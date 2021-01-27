@@ -177,6 +177,8 @@ hr:before {
 } */
 
 
+
+/* ==================HEADER================= */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
 
@@ -186,31 +188,17 @@ hr:before {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-body{
-  height: 3000px;
-}
-
-.margin1{
-  margin-left: 10%;
-  margin-right: 0%;
-}
-
-.margin2{
-  margin-left: 8%;
-  margin-right: 8%;
-}
-
 header{
   /* background-color: #9024adad; */
-  height: 90px;
-  line-height: 90px;
+  height: 60px;
+  line-height: 60px;
   position: fixed;
   z-index: 1;
   width: 100%;
 }
 #mainNavbar.scrolled{
-  background-color: #000000ad;
-  transition: all 1s ease-in-out;
+  background-color: rgba(118, 30, 130, 0.89);
+  transition: all 2s ease-in-out;
 }
 
 
@@ -225,26 +213,55 @@ ul li{
 header nav ul li a{
   padding-right: 30px;
   font-size: 20px;
+  font-weight: bold;
   color: white;
   transition: all 0.4s ease-in;
+  text-transform: uppercase;
 }
 
 header nav ul li a:hover{
   text-decoration: none;
-  font-weight: bold;
+  font-size: 28px;
   color: white;
   transition: all 0.2s ease-in;
 }
 
 .header1 {
   position: relative;
-  height: 750px;
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1502665607786-eaa3cd100809?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  height: 792px;
+  background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1588538203111-8c345e4ba8c3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&w=1000&q=80);
+  /* background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn.wallpapersafari.com/1/24/fkao7F.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   /* background-image: linear-gradient(#535353, #9839d8); */
   border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.774);
+}
+
+.header1 a img{
+  text-align: center;
+  width: 580px;
+  height: auto;
+  margin-top: 100px;
+}
+
+
+
+/* =====================BODY================== */
+
+h2{
+  color: rgb(118, 30, 130);
+}
+
+.margin1{
+  margin-left: 10%;
+  margin-right: 0%;
+}
+
+.margin2{
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 
@@ -253,6 +270,7 @@ header nav ul li a:hover{
   padding: 100px 0;
   text-align: center;
 }
+
 
 .sub-heading{
   position: relative;
@@ -266,8 +284,8 @@ header nav ul li a:hover{
   left: 50%;
   margin-left: -3%;
   width: 6%;
-  height: 1px;
-  background-color: #000;
+  height: 2.5px;
+  background-color: #761e82;
   z-index: 1;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
@@ -289,7 +307,7 @@ header nav ul li a:hover{
   left: 50%;
   margin-left: -12%;
   width: 24%;
-  height: 1px;
+  height: 2.5px;
   background-color: #e1e1e1;
 }
 
@@ -318,4 +336,61 @@ header nav ul li a:hover{
   margin-right: 6px;
   margin-top: 3px;
   margin-bottom: 3px;
+}
+
+
+/* =======================FOOTER================ */
+
+.footer {
+  /* position: relative;
+  height: 600px;
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://static6.depositphotos.com/1018560/566/i/600/depositphotos_5669634-stock-photo-mixing-desk-with-speakers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 50% 20%;
+  border-top-right-radius: 50% 20%; */
+
+  position: relative;
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://lh3.googleusercontent.com/proxy/Od6Mz7KQJHWhsOwD3-54YIRzoGgu39G0T1vevXlM1g7ulgvjJjvK3att6sKet0A26BU1d-_tbZbHPDHKVgup-NpTAaaJDDTu4cTEewF636l2du43m2QlcPWHodRcWxnTWh5t);
+  /* clip-path: polygon(75% 0%, -200% 100%, 200% 100%); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.774);
+  margin-top: 100px;
+}
+
+.footer p a, .footer p i{
+  color: white;
+}
+
+.footer p a:hover{
+  text-decoration: none;
+  color: rgb(207, 101, 221);
+}
+
+.footer a i{
+  margin: 10px;
+}
+.footer a i:hover{
+  color:  rgb(207, 101, 221);
+  size: 20px;
+}
+
+.footer div{
+  padding-top: 30px;
+  padding-left: 170px;
+}
+
+.footer div h2{
+  padding-top: 60px;
+  color: white;
+}
+
+hr{
+  background-color: white;
+  width: 6%;
+  margin-left: 170px;
+  height: 2px;
+  display: block;
 }
